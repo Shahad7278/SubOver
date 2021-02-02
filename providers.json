@@ -10,6 +10,191 @@
 		"response":["There's nothing here, yet.", "herokucdn.com/error-pages/no-such-app.html", "<title>No such app</title>"]
 	},
 	{
+		"name":"AgileCRM", 
+		"cname":["*.agilecrm.com","cname.agilecrm.com", "agilecrm.com""], 
+		"response":["Sorry, this page is no longer available."]
+	},
+	{
+		"name":"animaapp", 
+		"cname":["animaapp.com"], 
+		"response":["If this is your website and you've just created it, try refreshing in a minute"]
+	},
+	{
+		"name":"Airee.ru", 
+		"cname":["Airee.ru"], 
+		"response":["Ошибка 402. Сервис Айри.рф не оплачен"]
+	},
+	{
+		"name":"AWS/S3", 
+		"cname":["s3.amazonaws.com","amazonaws.com","amazonaws.cn"], 
+		"response":["The specified bucket does not exist"]
+	},
+	{
+		"name":"Bitbucket", 
+		"cname":["Bitbucket.com"], 
+		"response":["Repository not found"]
+	},
+	{
+		"name":"Campaign Monitor", 
+		"cname":["campaignmonitor.com","createsend.com","Double check the URL or <a href=\"mailto:help@createsend.com"], 
+		"response":["Trying to access your account"]
+	},
+	{
+		"name":"Cloudfront", 
+		"cname":["cloudfront.net"], 
+		"response":["Bad Request: ERROR: The request could not be satisfied"]
+	},
+	{
+		"name":"Desk",
+		"cname":["Desk.com"], 
+		"response":["Please try again or try Desk.com free for 14 days."]
+	},
+	{
+		"name":"Digital Ocean",
+		"cname":["digitalocean.com"], 
+		"response":["Domain uses DO name serves with no records in DO."]
+	},
+	{
+		"name":"Fastly",
+		"cname":["fastly.net"], 
+		"response":["Fastly error: unknown domain:"]
+	},
+	{
+		"name":"Feedpress",
+		"cname":["feedpress.com"], 
+		"response":["The feed has not been found."]
+	},
+	{
+		"name":"Gemfury",
+		"cname":["Gemfury.com"], 
+		"response":["404: This page could not be found."]
+	},
+	{
+		"name":"HatenaBlog",
+		"cname":["hatenablog.com"], 
+		"response":["404 Blog is not found"]
+	},
+	{
+		"name":"HelpJuice",
+		"cname":["helpJuice.com"], 
+		"response":["We could not find what you're looking for."]
+	},
+	{
+		"name":"HelpScout",
+		"cname":["helpscout.com"], 
+		"response":["No settings were found for this company:"]
+	},
+	{
+		"name":"Intercom",
+		"cname":["intercom.com"], 
+		"response":["Uh oh. That page doesn't exist."]
+	},
+	{
+		"name":"JetBrains",
+		"cname":["jetbrains.com"], 
+		"response":["is not a registered InCloud YouTrack"]
+	},
+	{
+		"name":"LaunchRock",
+		"cname":["launchrock.com"], 
+		"response":["It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us."]
+	},
+	{
+		"name":"Mashery",
+		"cname":["tibco.com"], 
+		"response":["Unrecognized domain"]
+	},
+	{
+		"name":"Ngrok",
+		"cname":["ngrok.io"], 
+		"response":["Tunnel *.ngrok.io not found"]
+	},
+	{
+		"name":"Pantheon",
+		"cname":["pantheon.io"], 
+		"response":["404 error unknown site!"]
+	},
+	{
+		"name":"Pingdom",
+		"cname":["Pingdom.com"], 
+		"response":["This public report page has not been activated by the user"]
+	},
+	{
+		"name":"Readme.io",
+		"cname":["Readme.io"], 
+		"response":["Project doesnt exist... yet!"]
+	},
+	{
+		"name":"SmartJobBoard",
+		"cname":["smartjobboard.com"], 
+		"response":["This job board website is either expired or its domain name is invalid."]
+	},
+	{
+		"name":"Statuspage",
+		"cname":["atlassian.com","statuspage.io"], 
+		"response":["You are being redirected"]
+	},
+	{
+		"name":"Surge.sh",
+		"cname":["atlassian.com","statuspage.io"], 
+		"response":["project not found"]
+	},
+	{
+		"name":"Uberflip",
+		"cname":["uberflip"], 
+		"response":["Non-hub domain, The URL you've accessed does not provide a hub."]
+	},
+	{
+		"name":"Unbounce",
+		"cname":["unbounce.com"], 
+		"response":["The requested URL was not found on this server."]
+	},
+	{
+		"name":"Worksites",
+		"cname":[""], 
+		"response":["Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.","Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.</p>\n<a href=\"https://worksites.net/\">Learn more about Worksites.net"]
+	},
+	{
+		"name":"interstingServices",
+		"cname":[".azurewebsites.net",
+			".cloudapp.net",
+			".cloudapp.azure.com",
+			".trafficmanager.net",
+			".blob.core.windows.net",
+			".azure-api.net",
+			".azurehdinsight.net",
+			".azureedge.net", 
+		        "azurewebsites.net",
+			"cloudapp.net",
+			"cloudapp.azure.com",
+			"trafficmanager.net",
+			"blob.core.windows.net",
+			"azure-api.net",
+			"azurehdinsight.net",
+			"azureedge.net"]
+		"response":[""]
+	},
+	{
+		"name":"apigee",
+		"cname":["-portal.apigee.net","portal.apigee.net"], 
+		"response":[""]
+	},
+	{
+		"name":"smugmug",
+		"cname":["domains.smugmug.com"], 
+		"response":[""]
+	},
+        {
+		"name":"Statuspage",
+		"cname":["atlassian.com","statuspage.io"], 
+		"response":["You are being redirected"]
+	},
+	{
+		"name":"Fastly",
+		"cname":["fastly.net","fastly"], 
+		"response":["Fastly error: unknown domain"]
+	},
+	{
 		"name":"unbounce",
 		"cname":["unbouncepages.com"],
 		"response":["The requested URL / was not found on this server.", "The requested URL was not found on this server"]
@@ -17,7 +202,7 @@
 	{
 		"name":"tumblr",
 		"cname":["tumblr.com"],
-		"response":["There's nothing here.", "Whatever you were looking for doesn't currently exist at this address."]
+		"response":["There's nothing here.", "Whatever you were looking for doesn't currently exist at this address.","Whatever you were looking for doesn't currently exist at this address"]
 	},
 	{
 		"name":"shopify",
@@ -76,8 +261,8 @@
 	},
 	{
 		"name":"acquia",
-		"cname":["acquia.com"],
-		"response":["If you are an Acquia Cloud customer and expect to see your site at this address"]
+		"cname":["acquia.com","acquia-test.co"],
+		"response":["If you are an Acquia Cloud customer and expect to see your site at this address","The site you are looking for could not be found"]
 	},
 	{
 		"name":"fastly",
@@ -111,13 +296,13 @@
 	},
 	{
 		"name":"tilda",
-		"cname":["tilda.ws"],
-		"response":["Domain has been assigned"]
+		"cname":["tilda.ws","tilda.cc"],
+		"response":["Please renew your subscription"]
 	},
 	{
 		"name":"wordpress",
 		"cname":["wordpress.com"],	
-		"response":["Do you want to register"]
+		"response":["Do you want to register","Do you want to register *.wordpress.com?"]
 	},
 	{
 		"name":"teamwork",
@@ -167,7 +352,7 @@
 	{
 		"name":"webflow",
 		"cname":["proxy.webflow.io"],
-		"response":["<p class=\"description\">The page you are looking for doesn't exist or has been moved.</p>"]
+		"response":["<p class=\"description\">The page you are looking for doesn't exist or has been moved.</p>","The page you are looking for doesn't exist or has been moved."]
 	},
 	{
 		"name":"kajabi",
@@ -240,7 +425,7 @@
 		"response":["With GetResponse Landing Pages, lead generation has never been easier"]
 	},
 	{
-		"name":"vend",
+		"name":"vendecommerce",
 		"cname":["vendecommerce.com"],
 		"response":["Looks like you've traveled too far into cyberspace."]
 	},
