@@ -102,7 +102,7 @@
 	{
 		"name":"apigee",
 		"cname":["-portal.apigee.net", "portal.apigee.net"], 
-		"response":["The requested resource was not found."]
+		"response":["The specified bucket does not exist", "NoSuchBucket", "Not Found"]
 	},
 	{
 		"name":"smugmug",
