@@ -102,12 +102,12 @@
 	{
 		"name":"apigee",
 		"cname":["-portal.apigee.net", "portal.apigee.net"], 
-		"response":[""]
+		"response":["The requested resource was not found."]
 	},
 	{
 		"name":"smugmug",
 		"cname":["domains.smugmug.com"], 
-		"response":[""]
+		"response":["The requested resource was not found."]
 	},
         {
 		"name":"Statuspage",
