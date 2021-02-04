@@ -25,9 +25,14 @@
 		"response":["Ошибка 402. Сервис Айри.рф не оплачен"]
 	},
 	{
+		"name":"Iron.io", 
+		"cname":["iron.io"], 
+		"response":["but is not configured for an account on our platform"]
+	},
+	{
 		"name":"AWS/S3", 
 		"cname":["s3.amazonaws.com", "amazonaws.com", "amazonaws.cn"], 
-		"response":["The specified bucket does not exist", "NoSuchBucket"]
+		"response":["The specified bucket does not exist", "NoSuchBucket", "NoSuchKey", "The specified key does not exist"]
 	},
 	{
 		"name":"CampaignMonitor", 
@@ -102,7 +107,19 @@
 	{
 		"name":"apigee",
 		"cname":["-portal.apigee.net", "portal.apigee.net"], 
-		"response":["The specified bucket does not exist", "NoSuchBucket", "Not Found"]
+		"response":["The specified bucket does not exist",
+			     "NoSuchBucket",
+			     "Not Found", 
+			     "<strong>Trying to access your account", 
+                             "Use a personal domain name", 
+                             "Publishing platform",                         
+                             "<title>No such app</title>",
+                             "Sorry, cstatus page",                        
+                             "data-html-name=\"Header Logo Link\"",                            
+                             "class=\"MarketplaceHeader__tictailLogo\"",                    
+                             "No Site For Domain", 
+                             "There is no portal here", 
+                             "<title>404 &mdash; File not found</title>",]
 	},
 	{
 		"name":"smugmug",
@@ -200,6 +217,11 @@
 		"response":["The thing you were looking for is no longer here", "The thing you were looking for is no longer here, or never was"]
 	},
 	{
+		"name":"Freshservice",
+		"cname":["freshservice.com"],
+		"response":["You can claim it now at"]
+	},
+	{
 		"name":"pingdom",
 		"cname":["stats.pingdom.com"],
 		"response":["This public report page has not been activated by the user", "pingdom"]
@@ -217,7 +239,7 @@
 	{
 		"name":"teamwork",
 		"cname":["teamwork.com"],
-		"response":["Oops - We didn't find your site."]
+		"response":["Oops - We didn't find your site.", "<title>Oops - We didn't find your site.</title>"]
 	},
 	{
 		"name":"helpjuice",
@@ -237,7 +259,7 @@
 	{
 		"name":"feedpress",
 		"cname":["redirect.feedpress.me"],
-		"response":["The feed has not been found."]
+		"response":["The feed has not been found.","The feed has not been found"]
 	},
 	{
 		"name":"surge",
@@ -273,6 +295,16 @@
 		"name":"thinkific",
 		"cname":["thinkific.com"],
 		"response":["You may have mistyped the address or the page may have moved."]
+	},
+	{
+		"name":"Brightcove",
+		"cname":["Brightcove.com"],
+		"response":['<p class="bc-gallery-error-code">Error Code: 404</p>']
+	},
+	{
+		"name":"Wishpond",
+		"cname":["Wishpond.com"],
+		"response":["<h1>https://www.wishpond.com/404?campaign=true"]
 	},
 	{
 		"name":"tave",
