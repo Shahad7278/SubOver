@@ -299,7 +299,7 @@
 	{
 		"name":"Brightcove",
 		"cname":["Brightcove.com"],
-		"response":['<p class="bc-gallery-error-code">Error Code: 404</p>']
+		"response":["<p class=”bc-gallery-error-code”>Error Code: 404</p>"]
 	},
 	{
 		"name":"Wishpond",
